@@ -13,7 +13,7 @@
 # *.TIF
 # *.TIFF
 # *.HEIC
-# *.mp4
+ *.mp4
 # *.mov
 # *.MOV
 # *.avi
@@ -48,8 +48,8 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
+#*.weights
+#*.pt
 *.pb
 *.onnx
 *.engine

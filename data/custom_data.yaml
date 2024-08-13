@@ -8,16 +8,24 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 # path: ../datasets/coco128 # dataset root dir
-train: train_data/images/train # train images (relative to 'path') 128 images
-val: train_data/images/valid # val images (relative to 'path') 128 images
-#test: train_data1/images/test
+train: train_data1/images/train # train images (relative to 'path') 128 images
+val: train_data1/images/valid # val images (relative to 'path') 128 images
+test: train_data1/images/test
 # test images (optional)
 
 # Classes
+# names:
+#   0: 5 star
+#   1: Coke
+#   2: Haldiram peanuts
+
 names:
-  0: 5 star
-  1: Coke
-  2: Haldiram peanuts
+  0: Coca Cola
+  1: Sprite
+  2: Pepsi
+  3: Mountain Dew
+  4: 7UP
+  5: Fanta
   
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip
